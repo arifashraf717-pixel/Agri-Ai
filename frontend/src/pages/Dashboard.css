@@ -1,0 +1,164 @@
+/* =============================
+   Dashboard.css - Green Glassy Cards
+   ============================= */
+
+/* Main Containers */
+.container h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* --- 4 Info Cards --- */
+.info-card {
+  background: rgba(255, 255, 255, 0.605); /* Semi-transparent glass */
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+}
+.info-card i {
+  font-size: 2rem;
+  color: #388e3c;
+  margin-bottom: 10px;
+}
+.hover-move {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-move:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.61); /* Slightly lighter on hover */
+}
+
+/* --- Tasks & Trending News Cards --- */
+.news-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 14px;
+  padding: 18px;
+  border-left: 5px solid #388e3c;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  position: relative; 
+}
+.news-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.9);
+}
+.news-card h6 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.news-card small {
+  color: #555;
+}
+.news-card .news-title-link {
+    text-decoration: none;
+    color: inherit; 
+}
+.news-card .news-title-link::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1; 
+}
+.news-card .badge.bg-success {
+  background: #388e3c !important;
+  font-size: 0.75rem;
+  padding: 5px 8px;
+  border-radius: 6px;
+  position: relative; 
+  z-index: 2;
+}
+
+/* --- Profit Calculator --- */
+.calculator-card {
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.calculator-card h4 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.calculator-card input {
+  border-radius: 8px;
+  padding: 10px;
+}
+.calculator-card button {
+  border-radius: 8px;
+  font-weight: 600;
+}
+/* Style for the result text */
+.calculator-card p {
+    font-size: 1.25rem; 
+    font-weight: 700; 
+    margin-top: 1rem;
+}
+
+/* --- Other Helpers --- */
+.weather-card {
+  background: rgba(240, 255, 244, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+.scheme-card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0 6px 18px rgba(10, 20, 10, 0.03);
+}
+.form-label {
+  font-size: 0.9rem;
+  color: #2f6f2f;
+}
+/* Profit/Result styling */
+.alert-success {
+  background-color: #e6f9ec;
+  color: #0b6b2f;
+  border-color: #d1f0d8;
+}
+.alert-danger {
+  background-color: #ffecec;
+  color: #8a1f1f;
+  border-color: #ffd6d6;
+}
+.fw-semibold {
+  font-weight: 600;
+}
+
+/* =============================
+   Responsive Tweaks
+   ============================= */
+@media (max-width: 992px) {
+  .info-card { padding: 18px; }
+  .news-card { padding: 14px; }
+  .calculator-card { padding: 16px; }
+}
+
+@media (max-width: 767px) {
+  .info-card { padding: 15px; text-align: center; }
+  .info-card i { font-size: 1.5rem; }
+  .news-card { font-size: 0.9rem; }
+  .calculator-card input { font-size: 0.9rem; padding: 8px; }
+  .calculator-card button { width: 100%; }
+}
+
+@media (max-width: 480px) {
+  h2, h4 { font-size: 1.2rem; }
+  .info-card h6 { font-size: 0.9rem; }
+  .news-card h6 { font-size: 0.85rem; }
+  .calculator-card { padding: 12px; }
+}

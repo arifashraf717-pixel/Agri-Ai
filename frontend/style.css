@@ -1,0 +1,59 @@
+/* Global Body Styles */
+body {
+  background-color: #f0f9f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Styling */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+/* Buttons Styling */
+button {
+  margin-top: 10px;
+  transition: transform 0.2s; /* smooth hover effect */
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Alerts */
+.alert {
+  font-size: 1rem;
+}
+
+/* Textareas and Inputs */
+textarea.form-control,
+input.form-control {
+  border-radius: 5px;
+}
+
+/* Links (optional) */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Optional helper class */
+.text-success {
+  color: #2e7d32 !important;
+}
+
+/* Optional helper script style if needed */

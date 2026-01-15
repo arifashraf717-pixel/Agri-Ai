@@ -1,0 +1,45 @@
+.scheme-card {
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+.scheme-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.scheme-card h5 {
+  color: #155724;
+  font-weight: 600;
+  margin: 0;
+}
+.scheme-card p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+.badge.bg-success {
+  font-size: 0.8rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+/* Back button */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #e6f9ec;
+  color: #155724;
+  border: 1px solid #28a745;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.back-btn:hover {
+  background-color: #28a745;
+  color: white;
+  transform: translateX(-3px);
+}
