@@ -1,47 +1,31 @@
 # 🌾 Agri-AI – Intelligent Smart Farming Platform
 
-![React](https://img.shields.io/badge/Frontend-React-blue)
-![Flask](https://img.shields.io/badge/Backend-Flask-black)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-green)
-![AI](https://img.shields.io/badge/AI-Gemini%20Vision%20%7C%20OpenAI-purple)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+Agri-AI is a **full-stack smart agriculture platform** designed to help farmers make better decisions using **Artificial Intelligence and real-time data**.
 
-Agri-AI is a **full-stack smart agriculture platform** that empowers farmers with **Artificial Intelligence and real-time data** to improve farming productivity and decision-making.
+Built using **React.js, Flask, Gemini Vision AI and MongoDB**, the system provides **crop recognition, plant disease detection, AI farmer chatbot, weather monitoring, agriculture news, market price insights and farm management tools** in one intelligent platform.
 
-Built using **React.js, Flask, Gemini AI Vision and MongoDB**, the system provides crop detection, soil analysis, plant disease detection, AI chatbot assistance, live weather monitoring, agriculture news, market prices, and complete farm management.
-
----
-
-# 🚀 Live Demo
-
-Coming Soon
-
----
 
 # 📸 Project Screenshots
 
-Add screenshots of your project inside a folder called **screenshots**.
-
-Example folder structure:
-
-screenshots/dashboard.png
-screenshots/crop-detection.png
-screenshots/chatbot.png
-screenshots/weather.png
-
-Example display:
-
-## Dashboard
+## 🏠 Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
-## Crop Detection
-
-![Crop Detection](screenshots/crop-detection.png)
-
-## AI Chatbot
+## 🤖 AI Farmer Chatbot
 
 ![Chatbot](screenshots/chatbot.png)
+
+## 🌱 Crop Recognition
+
+![Crop Recognition](screenshots/breed.png)
+
+## 🦠 Plant Disease Detection
+
+![Disease Detection](screenshots/disease.png)
+
+## 🌦 Weather Monitoring
+
+![Weather](screenshots/weather.png)
 
 ---
 
@@ -50,42 +34,39 @@ Example display:
 ## 🤖 AI Farmer Chatbot
 
 * Ask farming questions in natural language
-* Provides expert advice on crops, fertilizers, irrigation and livestock
-* Built using powerful AI language models
+* Get expert advice on crops, fertilizers, irrigation and livestock
+* AI powered conversational assistant
 
 ---
 
-## 🌱 Crop, Soil & Animal Detection
+## 🌱 Crop Recognition
 
-Upload images and get instant AI analysis.
+Upload crop images and the AI will:
 
-Features:
+* Identify crop species
+* Provide farming insights
+* Suggest crop management practices
 
-* Crop type recognition
-* Soil quality detection
-* Animal identification
-* Actionable farming recommendations
-
-Powered by **Google Gemini Vision AI**
+Powered by **Gemini Vision AI**.
 
 ---
 
 ## 🦠 Plant Disease Detection
 
-Detect plant diseases using image analysis.
+Detect plant diseases instantly by uploading plant images.
 
-System provides:
+The system provides:
 
-* Disease name
-* Cause of infection
-* Treatment suggestions
-* Prevention strategies
+* Disease identification
+* Causes of infection
+* Treatment recommendations
+* Prevention methods
 
 ---
 
-## 🌦️ Live Weather Monitoring
+## 🌦 Live Weather Monitoring
 
-Real-time weather information for farmers.
+Real-time weather data helps farmers plan activities.
 
 Includes:
 
@@ -94,72 +75,69 @@ Includes:
 * Wind speed
 * Weather conditions
 
-Helps farmers plan irrigation, harvesting and pesticide spraying.
-
-Powered by **Open-Meteo Weather API**
+Powered by **Open-Meteo Weather API**.
 
 ---
 
 ## 📰 Agriculture News Feed
 
-Displays latest agriculture updates including:
+Stay updated with the latest farming developments.
+
+Includes:
 
 * Government schemes
-* Farming innovations
-* Agricultural research
-* Policy announcements
+* Agriculture innovations
+* Farming policies
+* Research updates
 
-Powered by **NewsAPI**
+Powered by **NewsAPI**.
 
 ---
 
 ## 💹 Market Price Insights
 
-Daily updated prices for:
+Daily market prices for agricultural products such as:
 
 * Dairy products
 * Vegetables
 * Fruits
 * Seeds and fertilizers
 
-Helps farmers choose the **best selling time for crops**.
+Helps farmers decide the **best time to sell crops**.
 
 ---
 
-## 🧾 Smart Farm Management System
+## 🧾 Farm Management System
 
-Complete digital farm management.
+Digital farm management features:
 
-Features include:
-
-* Farmer signup & login
-* Farm profile management
-* Crop record tracking
+* Farmer signup and login
+* Farm profile storage
+* Crop tracking
 * Expense tracking
 * Production monitoring
 
-All data stored securely using **MongoDB**.
+All data is securely stored using **MongoDB**.
 
 ---
 
-# 🏗️ System Architecture
+# 🏗 System Architecture
 
-User (Farmer)
-│
-▼
-React.js Frontend
-│
-▼
-Flask REST API
-│
-┌────┴──────────────┐
-▼                   ▼
-MongoDB          AI Services
-Database         (Gemini + OpenAI)
-│
-▼
+Farmer
+↓
+React Frontend
+↓
+Flask Backend
+↓
+MongoDB Database
+
+AI Services
+• Gemini Vision AI
+• AI Models
+
 External APIs
-Weather API | News API
+• Weather API
+• News API
 
 ---
 
@@ -169,31 +147,31 @@ Weather API | News API
 | -------- | ------------------------------- |
 | Frontend | React.js                        |
 | Backend  | Flask (Python)                  |
-| AI       | Gemini Vision AI, OpenAI        |
+| AI       | Gemini Vision AI                |
 | Database | MongoDB                         |
 | APIs     | Open-Meteo Weather API, NewsAPI |
 | Tools    | Git, GitHub, VS Code            |
 
 ---
 
-# ⚙️ Installation & Setup
+# ⚙ Installation & Setup
 
-## 1️⃣ Clone Repository
+### Clone Repository
 
 git clone https://github.com/Midhun-Saravanan/Agri-Ai.git
 cd Agri-Ai
 
 ---
 
-## 2️⃣ Install Backend Dependencies
+### Install Backend Dependencies
 
 pip install flask flask-cors python-dotenv pymongo requests openai
 
 ---
 
-## 3️⃣ Setup Environment Variables
+### Setup Environment Variables
 
-Create a `.env` file inside backend folder.
+Create `.env` file inside backend folder and add:
 
 OPENAI_API_KEY=your_openai_key
 GEMINI_API_KEY=your_gemini_key
@@ -201,19 +179,19 @@ NEWS_API_KEY=your_newsapi_key
 
 ---
 
-## 4️⃣ Start MongoDB
+### Start MongoDB
 
 mongod
 
 ---
 
-## 5️⃣ Run Flask Backend
+### Run Flask Backend
 
 python app.py
 
 ---
 
-## 6️⃣ Run React Frontend
+### Run React Frontend
 
 cd frontend
 npm install
@@ -223,15 +201,15 @@ npm start
 
 # 🔗 API Endpoints
 
-| Endpoint          | Method | Description           |
-| ----------------- | ------ | --------------------- |
-| /api/signup       | POST   | Farmer registration   |
-| /api/login        | POST   | Farmer login          |
-| /api/upload_image | POST   | Crop / soil detection |
-| /api/weather      | GET    | Fetch weather data    |
-| /api/query        | POST   | AI chatbot query      |
-| /api/news         | GET    | Agriculture news      |
-| /api/market       | GET    | Market prices         |
+| Endpoint          | Method | Description              |
+| ----------------- | ------ | ------------------------ |
+| /api/signup       | POST   | Farmer registration      |
+| /api/login        | POST   | Farmer login             |
+| /api/upload_image | POST   | Crop / disease detection |
+| /api/weather      | GET    | Weather data             |
+| /api/query        | POST   | AI chatbot               |
+| /api/news         | GET    | Agriculture news         |
+| /api/market       | GET    | Market prices            |
 
 ---
 
@@ -239,45 +217,23 @@ npm start
 
 Agri-AI helps farmers:
 
-* Reduce crop losses
-* Detect diseases early
-* Improve crop yield
-* Access real-time farming information
+* Detect crop diseases early
+* Improve crop productivity
+* Access real-time farming insights
 * Make data-driven agricultural decisions
 
-The system moves agriculture towards **smart digital farming**.
+The platform moves agriculture toward **AI-powered smart farming**.
 
 ---
 
-# 🚀 Future Enhancements
-
-Planned improvements:
+# 🚀 Future Improvements
 
 * Multi-language support (Tamil, Hindi)
 * Voice assistant for farmers
-* IoT sensors for soil moisture monitoring
+* IoT sensors for soil monitoring
 * AI crop yield prediction
-* Farmer marketplace for direct selling
-* Mobile app version
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-Steps:
-
-1. Fork the repository
-2. Create a new branch
-3. Commit changes
-4. Submit pull request
-
----
-
-# 📜 License
-
-This project is licensed under the **MIT License**.
+* Farmer marketplace
+* Mobile application
 
 ---
 
@@ -285,4 +241,4 @@ This project is licensed under the **MIT License**.
 
 **Midhun Saravanan**
 B.Tech Information Technology
-Full Stack & AI Developer
+AI & Full Stack Developer
