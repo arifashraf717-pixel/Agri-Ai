@@ -1,0 +1,55 @@
+[
+    {
+        "username": "navin",
+        "password": "1234"
+    },
+    {
+        "fullname": "mithun",
+        "phone": "9942177230",
+        "password": "1212",
+        "location": "Village B",
+        "farm_type": "Dairy"
+    },
+    {
+        "fullname": "mithun",
+        "phone": "9342512455",
+        "password": "12",
+        "location": "Village A",
+        "farm_type": "Dairy"
+    },
+    {
+        "fullname": "navin",
+        "phone": "1212345678",
+        "password": "12",
+        "location": "Village D",
+        "farm_type": "Crop Farming"
+    },
+    {
+        "fullname": "mithxx",
+        "phone": "01234567890",
+        "password": "mi",
+        "location": "Village A",
+        "farm_type": "Dairy"
+    },
+    {
+        "fullname": "ragu",
+        "phone": "1234567890",
+        "password": "123",
+        "location": "Village A",
+        "farm_type": "Dairy"
+    },
+    {
+        "fullname": "SARO",
+        "phone": "994217723",
+        "password": "120807",
+        "location": "ERODE",
+        "farm_type": "Dairy"
+    },
+    {
+        "fullname": "MIDHUN",
+        "phone": "9976039555",
+        "password": "123",
+        "location": "COIMBATORE",
+        "farm_type": "Dairy"
+    }
+]
