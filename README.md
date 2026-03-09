@@ -15,7 +15,7 @@ Built using **React.js, Flask, Gemini Vision AI and MongoDB**, the system provid
 
 ![Chatbot](screenshots/chatbot.png)
 
-## 🌱 Crop Recognition
+## 🐄 Animal Breed Recognition
 
 ![Crop Recognition](screenshots/breed.png)
 
