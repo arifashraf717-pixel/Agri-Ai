@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌾 Agri-AI – Intelligent Smart Farming Platform
 
 Agri-AI is a full-stack smart agriculture system that empowers farmers with Artificial Intelligence to make accurate, data-driven farming decisions. Built using **React.js**, **Flask**, **Gemini AI Vision**, and **MongoDB**, this platform integrates crop, soil, animal & disease detection, AI chatbot assistance, live weather updates, agriculture news, market price analysis and complete farm management — all in one powerful solution.
@@ -131,3 +132,7 @@ Agri-AI transforms traditional farming into **smart digital agriculture** by giv
 * IoT sensor integration for live soil & crop health
 * Fertilizer & irrigation optimization system
 * Farmer-to-farmer digital marketplace
+=======
+# Agri-Ai
+AgriAI is a smart agriculture platform built with React.js, Flask, Gemini AI Vision and MongoDB that provides crop, soil, animal and disease detection, AI-powered farmer chatbot, real-time weather monitoring, agriculture news, market price insights and complete farm management in one intelligent system
+>>>>>>> 7204f1f1943c3c4603396795230bf346e61679e0
